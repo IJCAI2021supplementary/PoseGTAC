@@ -31,8 +31,6 @@ Data Preparation:
 
 Note that these two datasets are publicly available and have been widely used in the community.
 
-The data should be put in ./data/.
-
 ### Running
 
 Run main.py to train and evaluate models
