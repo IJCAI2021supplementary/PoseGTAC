@@ -58,7 +58,7 @@ In this work, we proposed a novel Graph Transformer Encoder-Decoder with Atrous 
 
 <p align="center"><img src="imgs/P-MPJPE_Results.png" width="95%" alt="" /></p>
 
-Table 1 and Table 2 respectively show the experiment results on the Human3.6M dataset for MPJPE and P-MPJPE. We can observe that the proposed PoseGTAC method obtains the best results in terms of the average and most individual actions.
+Table 1 and Table 2 show the experiment results on the Human3.6M dataset for MPJPE and P-MPJPE. We can observe that the proposed PoseGTAC method obtains the best results in terms of the average and most individual actions.
 
 <p align="center"><img src="imgs/MPJVE_Results.png" width="95%" alt="" /></p>
 
@@ -66,4 +66,4 @@ We also provide supplementary to evaluate the smoothness (MPJVE) of the predicte
 
 <p align="center"><img src="imgs/MPII.png" width="40%" alt="" /></p>
 
-For MPI-INF-3DHP dataset, we train our PoseGTAC model with Human3.6M data without post-process of fine-tune or retrain. Table 3 shows the evaluation results using PCK and AUC. 
+For MPI-INF-3DHP dataset, we train our model with Human3.6M data without post-process of fine-tune or retrain. Table 3 shows the evaluation results using PCK and AUC. 
