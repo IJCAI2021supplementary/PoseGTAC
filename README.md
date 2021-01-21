@@ -1,13 +1,13 @@
 # PoseGTAC: Graph Transformer Encoder-Decoder with Atrous Convolution for 3D Human Pose Estimation
 
-This repository is the Pytorch implementation of our PoseGTAC.
+This repository is the **anonymous** Pytorch implementation of the PoseGTAC method.
 
 <p align="center"><img src="imgs/visualizations/Purchases_120.gif" width="70%" alt="" /></p>
 <p align="center"><img src="imgs/visualizations/Greeting_120.gif" width="70%" alt="" /></p>
 <p align="center"><img src="imgs/visualizations/Eating_120.gif" width="70%" alt="" /></p>
 <p align="center"><img src="imgs/visualizations/Posing_120.gif" width="70%" alt="" /></p>
 
-[Note] : from left to right are the input, ground-truth and our prediction.
+[Note] : from left to right are the input, ground-truth and our PoseGTAC  prediction.
 
 ## Installation and Requirements
 
@@ -29,6 +29,8 @@ Data Preparation:
 
  MPI-INF-3DHP: http://gvv.mpi-inf.mpg.de/3dhp-dataset
 
+Note that these two datasets are publicly available and have been widely used in the community.
+
 The data should be put in ./data/.
 
 ### Running
@@ -40,7 +42,7 @@ python main.py
 python main.py --evaluate ${WEIGHT_PATH}
 ```
 
-You can change the hyperparameters if you want to try different configurations.
+You can change the hyper-parameters if you want to try different configurations.
 
 ## Introduction
 
@@ -56,7 +58,7 @@ In this work, we proposed a novel Graph Transformer Encoder-Decoder with Atrous 
 
 <p align="center"><img src="imgs/P-MPJPE_Results.png" width="95%" alt="" /></p>
 
-Table 1 and Table 2 show the experiment results on the Human3.6M dataset for MPJPE and P-MPJPE. We can observe that the proposed PoseGTAC method obtains the best results in terms of the average and most individual actions.
+Table 1 and Table 2 respectively show the experiment results on the Human3.6M dataset for MPJPE and P-MPJPE. We can observe that the proposed PoseGTAC method obtains the best results in terms of the average and most individual actions.
 
 <p align="center"><img src="imgs/MPJVE_Results.png" width="95%" alt="" /></p>
 
@@ -64,4 +66,4 @@ We also provide supplementary to evaluate the smoothness (MPJVE) of the predicte
 
 <p align="center"><img src="imgs/MPII.png" width="40%" alt="" /></p>
 
-For MPI-INF-3DHP dataset, we train our model with Human3.6M data without post-process of fine-tune or retrain. Table 3 shows the evaluation results using PCK and AUC. 
+For MPI-INF-3DHP dataset, we train our PoseGTAC model with Human3.6M data without post-process of fine-tune or retrain. Table 3 shows the evaluation results using PCK and AUC. 
